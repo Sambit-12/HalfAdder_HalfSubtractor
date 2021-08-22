@@ -2,7 +2,7 @@ PROJ_NAME = ADD_SUB
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC =src/halfadder.c\
-src/halfsubtractor.c
+src/halfsubtractor.c\
 
 
 
