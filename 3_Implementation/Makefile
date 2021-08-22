@@ -1,12 +1,12 @@
-PROJ_NAME = Duty_Cycle
+PROJ_NAME = ADD_SUB
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/DutyCycle.c\
+SRC =src/halfadder.c\
+src/halfsubtractor.c
 
 
 
 COV_SRC = test/test.c
-
 TEST_SRC = test/test.c \
 unity/unity.c 
 INC_H = inc

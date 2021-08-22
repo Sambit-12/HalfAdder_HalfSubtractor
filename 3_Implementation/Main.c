@@ -1,19 +1,18 @@
 /**
- * @file Main.c
- * @author your name (Sambit.Nayak@ltts.com)
- * @Finding the Duty Cycle and Output Voltage of Waveform by calculating the Time period at which Diode is on 
- * and Hence Finding the Duty cycle after Finding Duty cycle we are giving Input voltage and Duty cycle value to find Output 
- * Voltage of the waveform.
+ * @file main.c
+ * @author Sambit Nayak (Sambit.Nayak@domain.com)
+ * @Program for Half adder and Subtractor
  * @version 0.1
- * @date 2021-08-20
+ * @date 2021-08-22
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-#include "DutyCycle.h"
- int main(void)
+#include"halfadder.h"
+#include"halfsubtractor.h"
+int main()
 {
-     Sambit();
-     //Decleration of main function
+   adder();
+   subtractor();
     return 0;
 }

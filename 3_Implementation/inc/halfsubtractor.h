@@ -9,12 +9,11 @@
  * 
  */
 
-#ifndef DutyCycle_h
-    #define DutyCycle_h
+#ifndef halfsubtractor_h
+    #define halfsubtractor_h
     #include <stdio.h>
     #include <stdlib.h>
-    int Sambit();
-    int Parameter_s();
-    int Dutycycle(int Ton, int Toff);
-    int VoltageOutputofDutyCycle(int D, int Vo);
+    int subtractor();
+    typedef char bit;
+    bit halfsub(bit A,bit B);
     #endif
